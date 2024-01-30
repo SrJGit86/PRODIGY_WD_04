@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div onclick="forRemove()" class="useful"></div>
+    <div class="top">
+        <span>Pf</span>
+        <div>
+            <button>Contact me</button>
+            <i id="menu-bar" onclick="menubar()" class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="menu">
+
+                <i id="clearmenu" onclick="clearMenu()" class="fa-solid fa-xmark"></i>
+                <ul class="pages">
+                    <li id="home"><i class="fa-solid fa-house"></i>Home</li>
+                    <li id="skills-nav"><i class="fa-solid fa-laptop"></i>Skills</li>
+                    <li id="achieve"><i class="fa-solid fa-star"></i>Achievements</li>
+                    <li id="proj"><i class="fa-solid fa-diagram-project"></i>Projects</li>
+                </ul>
+                <div class="social">
+                    <h3>Socials</h3>
+                    <div class="line"></div>
+                    <a href=""><i class="fa-brands fa-instagram"></i>Instagram</a>
+                    <a href=""><i class="fa-brands fa-facebook"></i>Facebook</a>
+                    <a href="https://www.linkedin.com/in/surajyadav9111998133/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                    <a href="https://github.com/SrJGit86"><i class="fa-brands fa-github"></i>GitHub</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="first">
+                <div class="bg-cover"></div>
+                <div class="first-text">
+                    <div>
+                        <img class="profile" src="./assets/Untitled (1).jpeg" alt="">
+                        <span class="name">SURAJ YADAV</span>
+                        <span class="userName"></span>
+                    </div>
+                    <a href="" class="connect-on-linkedin"><i class="fa-brands fa-linkedin"></i>Connect with me on LinkedIn</a>
+                </div>
+            </div>
+            <div class="about">
+                <h3>About me</h3>
+                <div class="line"></div>
+                <div class="about-text">
+                    Hii... I'm Suraj 🖐 <br><br> "🚀 Passionate Software Developer 🖥️ | Crafting innovative web applications with HTML, CSS, JavaScript and ReactJs | Enthusiastic problem-solver | Devoted to constant learning and personal growth | Let's
+                    build the future together! 💻🌟"
+                </div>
+            </div>
+            <div class="second">
+                <h3>Education</h3>
+                <div class="line"></div>
+                <div class="standard">
+                    <div class="card">
+                        <span class="schl-name">KENDRIYA VIDYALAYA</span>
+                        <span class="schl-address">Khargone, Madhya Pradesh <br><br>2014-15</span>
+                        <span class="board">10th (C.B.S.E Board)</span>
+                        <span class="percentage">CGPA : 6.20</span>
+                    </div>
+                    <div class="card">
+                        <span class="schl-name">RISHIKUL VIDYA VIHAR</span>
+                        <span class="schl-address">Khargone, Madhya Pradesh <br><br>2016-17</span>
+                        <span class="board">12th (M.P Board)</span>
+                        <span class="percentage">Percentage : 55.60%</span>
+                    </div>
+                    <div class="card">
+                        <span class="schl-name">SHIVAJIRAO KADAM INSTITUTE OF TECHNOLOGY AND MANAGEMENT, (UNIVERSITY RGPV, BHOPAL, MADHYA PRADESH)</span>
+                        <span class="schl-address">Indore, Madhya Pradesh <br><br>2017-21</span>
+                        <span class="board">Bachelor of Technology (B.Tech) in Computer Science</span>
+                        <span class="percentage">CGPA : 6.68</span>
+                    </div>
+                </div>
+            </div>
+            <div class="third">
+                <h3>Skillset</h3>
+                <div class="line"></div>
+                <div class="skills_tools">
+                    <div class="skills-tools_card">
+                        <span class="lang">HTML</span>
+                        <span class="lang">CSS</span>
+                        <span class="lang">JavaScript</span>
+                        <span class="lang">ReactJS</span>
+                        <span class="lang">Java</span>
+                        <span class="lang">OOPS Concepts</span>
+                        <span class="lang">SQL</span>
+                        <span class="lang">Tailwind CSS</span>
+                    </div>
+                    <div class="skills-tools_card">
+                        <span class="tools">Visual Code Studio</span>
+                        <span class="tools">Git</span>
+                        <span class="tools">GitHub</span>
+                        <span class="tools">Intellij IDEA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fourth">
+                <h3>Projects</h3>
+                <div class="line"></div>
+                <div class="projects">
+                    <div class="project-card">
+                        <img src="./assets/currencyConverter.jpg" alt="">
+                        <div class="project-text">
+                            <span class="project-name">Currency Converter</span>
+                            <span class="lang-work">#HTML, #ReactJs , #Tailwind CSS </span>
+                            <div class="detail-host">
+                                <a href="https://github.com/SrJGit86/react_currencyConverter">Detail</a>
+                                <a href="https://srjgit86.github.io/react_currencyConverter/">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/passwordGenerator.jpg" alt="">
+                        <div class="project-text">
+                            <span class="project-name">Strong Password Generator</span>
+                            <span class="lang-work">#HTML, #ReactJs, #Tailwind CSS </span>
+                            <div class="detail-host">
+                                <a href="https://github.com/SrJGit86/password_Generator">Detail</a>
+                                <a href="https://srjgit86.github.io/password_Generator/">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/githubfinder.jpg" alt="">
+                        <div class="project-text">
+                            <span class="project-name">Github Finder</span>
+                            <span class="lang-work">#HTML, #CSS, #JavaScript</span>
+                            <div class="detail-host">
+                                <a href="https://github.com/SrJGit86/gitHub_user_finder">Detail</a>
+                                <a href="https://srjgit86.github.io/gitHub_user_finder/">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/cryptoview.jpg" alt="">
+                        <div class="project-text">
+                            <span class="project-name">Crypto Currency Viewer</span>
+                            <span class="lang-work">#HTML, #CSS, #JavaScript</span>
+                            <div class="detail-host">
+                                <a href="https://github.com/SrJGit86/cryptoCurrencyView_JS">Detail</a>
+                                <a href="https://srjgit86.github.io/cryptoCurrencyView_JS/">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/musicapp.jpg" alt="">
+                        <div class="project-text">
+                            <span class="project-name">Music Player</span>
+                            <span class="lang-work">#HTML, #CSS, #JavaScript</span>
+                            <div class="detail-host">
+                                <a href="https://github.com/SrJGit86/SrjMusic_Application/">Detail</a>
+                                <a href="https://srjgit86.github.io/SrjMusic_Application/">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/aishop.jpg" alt="">
+                        <div class="project-text">
+                            <span class="project-name">AI Shop</span>
+                            <span class="lang-work">#HTML, #CSS, #JavaScript</span>
+                            <div class="detail-host">
+                                <a href="https://github.com/SrJGit86/AI_Shop_JS">Detail</a>
+                                <a href="https://srjgit86.github.io/AI_Shop_JS/">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/tictactoe.png" alt="">
+                        <div class="project-text">
+                            <span class="project-name">Tic Tac Toe Game</span>
+                            <span class="lang-work">#HTML, #CSS, #JavaScript</span>
+                            <div class="detail-host">
+                                <a href="https://github.com/SrJGit86/PRODIGY_WD_03">Detail</a>
+                                <a href="https://srjgit86.github.io/PRODIGY_WD_03/index.html">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/weather.png" alt="">
+                        <div class="project-text">
+                            <span class="project-name">Weather App</span>
+                            <span class="lang-work">#HTML, #CSS, #JavaScript</span>
+                            <div class="detail-host">
+                                <a href="https://github.com/SrJGit86/PRODIGY_WD_05 ">Detail</a>
+                                <a href="https://srjgit86.github.io/PRODIGY_WD_05/index.html">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/textreader.jpg" alt="">
+                        <div class="project-text">
+                            <span class="project-name">Text Reader</span>
+                            <span class="lang-work">#HTML, #CSS, #JavaScript</span>
+                            <div class="detail-host">
+                                <a href="https://github.com/SrJGit86/speechTextReader">Detail</a>
+                                <a href="https://srjgit86.github.io/speechTextReader/">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="five">
+                <h3>Contact Me</h3>
+                <div class="line"></div>
+                <form method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required="">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required="">
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required=""></textarea>
+
+                    <button class="submitBtn" type="submit">Send Message</button>
+                </form>
+                <a href="https://drive.google.com/file/d/1y2hCMmaQv9uaa46stFKZXYfppSlPJORe/view?usp=drivesdk" target="_blank">See My Resume</a>
+            </div>
+
+            <div class="copyright">
+                <p><strong>© Suraj Yadav 2023 | All rights reserved </strong>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
